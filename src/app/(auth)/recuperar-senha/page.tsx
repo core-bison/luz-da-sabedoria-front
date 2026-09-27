@@ -1,5 +1,8 @@
-import { PagePlaceholder } from "@/components/ui/page-placeholder";
+import type { Metadata } from "next";
+import { PasswordRecoveryForm } from "@/features/auth/components/password-recovery-form";
+
+export const metadata: Metadata = { title: "Recuperar acesso", robots: { index: false } };
 
 export default function RecuperarSenhaPage() {
-  return <PagePlaceholder title="Recuperar senha" />;
+  return <PasswordRecoveryForm />;
 }
