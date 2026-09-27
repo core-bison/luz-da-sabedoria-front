@@ -1,0 +1,1 @@
+# luz-da-sabedoria-front
